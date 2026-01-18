@@ -21,7 +21,7 @@ The **Sales Analytics System** is a Python-based end-to-end data pipeline design
 
 ---
 
-## Author
+## Student
 
 **Vikas Pandey**  
 BITSOM Student Code: bitsom_ba_25071935  

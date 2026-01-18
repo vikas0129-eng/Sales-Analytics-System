@@ -88,7 +88,7 @@ sales-analytics-system/
 - Performs region-wise, product-wise, customer-wise, and daily trend analysis
 - Generates charts (bar and line plots)
 - Exports analytical summaries as CSV files into the `output/` directory
-- For exporting the chart into a .png file, run the below command in the command prompt after moving tothe  root folder of the project
+- For exporting the chart into a .png file, run the command below in the command prompt after moving to the  root folder of the project
     'sales-analytics-system/utils/python data_processor.py --export'
 
 ---

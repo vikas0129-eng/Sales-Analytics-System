@@ -88,7 +88,7 @@ sales-analytics-system/
 - Performs region-wise, product-wise, customer-wise, and daily trend analysis
 - Generates charts (bar and line plots)
 - Exports analytical summaries as CSV files into the `output/` directory
-- For exporting chart in to .png file, run the below command in command prompt post moving to root folder of project
+- For exporting the chart into a .png file, run the below command in the command prompt after moving tothe  root folder of the project
     'sales-analytics-system/utils/python data_processor.py --export'
 
 ---
@@ -101,7 +101,7 @@ sales-analytics-system/
 - Fetches product details from an external API
 - Creates in-memory product mappings
 - Enriches sales transactions with category, brand, price, rating, and match flags
-- Saves enriched transactions to `Data/enriched_sales_data.txt`
+- Saves enriched transactions to **Data/enriched_sales_data.txt**
 
 ---
 
@@ -113,7 +113,7 @@ sales-analytics-system/
 - Combines cleaned and enriched data
 - Computes high-level KPIs
 - Produces a structured, human-readable sales report
-- Saves the final report to `output/sales_report.txt`
+- Saves the final report to **output/sales_report.txt**
 
 ---
 
@@ -125,7 +125,7 @@ The following data summary files are generated as part of the analytics phase an
   Contains region-wise total revenue, transaction count, and percentage contribution.
 
 - **`top_products_summary.csv`**  
-  Lists top-performing products based on quantity sold and revenue generated.
+  List top-performing products based on quantity sold and revenue generated.
 
 - **`customer_summary.csv`**  
   Provides per-customer metrics such as total spend, number of orders, and product diversity.
@@ -136,7 +136,7 @@ The following data summary files are generated as part of the analytics phase an
 - **`low_performing_products.csv`**  
   Identifies products with sales volume below a defined threshold for performance monitoring.
 
-Additionally, the module generates **PNG visualizations** (bar charts and line graphs) corresponding to the above summaries. Instructions for the same have been explained under `utils/data_processor.py`
+Additionally, the module generates **PNG visualizations** (bar charts and line graphs) corresponding to the above summaries. Instructions for the same have been explained under **utils/data_processor.py**
 
 ---
 
@@ -146,6 +146,13 @@ Additionally, the module generates **PNG visualizations** (bar charts and line g
 git clone https://github.com/<vikas0129-eng>/sales-analytics-system.git
 cd sales-analytics-system
 pip install -r requirements.txt
+Create and Activate a Virtual Environment (Optional but Recommended)
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS / Linux
+source venv/bin/activate
+
 ```
 
 ---
@@ -163,7 +170,20 @@ This executes the complete pipeline:
 4. Produces a comprehensive sales report
 
 ---
+## (Optional) Run Individual Modules
 
+If you want to test parts of the system independently:
+
+# Only cleaning/validation
+python -m utils.file_handler
+# Only analytics on Sales_cleaned_data.txt
+python -m utils.data_processor --export
+# Only API enrichment
+python -m utils.api_handler
+# Only report generation
+python -m utils.sales_report_generation
+
+---
 ## License
 
 This project is licensed under the MIT License.

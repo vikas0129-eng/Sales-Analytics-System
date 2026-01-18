@@ -143,7 +143,7 @@ Additionally, the module generates **PNG visualizations** (bar charts and line g
 ## Installation & Setup
 
 ```bash
-git clone https://github.com/<your-username>/sales-analytics-system.git
+git clone https://github.com/<vikas0129-eng>/sales-analytics-system.git
 cd sales-analytics-system
 pip install -r requirements.txt
 ```

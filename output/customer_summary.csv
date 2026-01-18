@@ -1,0 +1,29 @@
+CustomerID,TotalSpent,PurchaseCount,AvgOrderValue,ProductsBought
+C004,857124.0,3,285708.0,"Headphones, Laptop Charger, Laptop Premium"
+C017,762460.0,1,762460.0,Laptop Premium
+C010,457186.0,3,152395.33,"External Hard Drive 1TB, Laptop Premium, Mouse Wireless"
+C024,249451.0,2,124725.5,"Monitor, Monitor LED"
+C008,216176.0,5,43235.2,"Laptop, Laptop Charger, Monitor, Mouse, Wireless Mouse"
+C023,165391.0,2,82695.5,"Monitor, Webcam"
+C003,118144.0,3,39381.33,"Laptop Premium, Mouse, Wireless Mouse"
+C005,112405.0,4,28101.25,"Laptop Charger, Monitor, Mouse, Wireless Mouse Gaming"
+C013,75919.0,3,25306.33,"Laptop, USB Cable, Webcam"
+C009,64707.0,6,10784.5,"Headphones, Keyboard, Mouse, USB Cable, Webcam HD, Wireless Mouse"
+C007,57317.0,4,14329.25,"Mouse, USB Cable, Webcam, Wireless Mouse Gaming"
+C019,56358.0,3,18786.0,"Laptop Charger 65W, Monitor LED, Mouse"
+C020,51695.0,1,51695.0,Monitor
+C028,48359.0,2,24179.5,"Headphones, Keyboard"
+C022,45778.0,5,9155.6,"Laptop Charger, USB Cable, Webcam, Wireless Mouse"
+C002,34218.0,1,34218.0,External Hard Drive
+C012,29735.0,3,9911.67,"External Hard Drive, Mouse, USB Cable"
+C006,24360.0,1,24360.0,External Hard Drive 1TB
+C011,24144.0,3,8048.0,"Keyboard Mechanical, Mouse, Wireless Mouse"
+C025,23148.0,3,7716.0,"Headphones, Mouse, Webcam"
+C001,11574.0,1,11574.0,Webcam
+C018,10152.0,1,10152.0,Wireless Mouse
+C026,10012.0,2,5006.0,"Laptop Charger, Mouse"
+C015,6330.0,2,3165.0,"Laptop Charger, Wireless Mouse"
+C029,6238.0,3,2079.33,"USB Cable, Webcam, Wireless Mouse"
+C030,4617.0,1,4617.0,Wireless Mouse
+C014,2560.0,1,2560.0,Mouse Wireless
+C027,2250.0,1,2250.0,USB Cable

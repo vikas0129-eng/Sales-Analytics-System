@@ -144,19 +144,19 @@ Additionally, the module generates **PNG visualizations** (bar charts and line g
 
 Download the entire project as zip file on your local machine and extract it. After extracting, open any IDE like Visual Code and open the root folder of the project. When you will run the main.py script, it will ask to create the .venv(virtual environment) folder and also ask to install libraries "requests" and "matplotlib" from the "requirements.txt" file. It will take some time to create the .venv folder and install libraries. Once both .venv and libraries are installed, you can go ahead with the display on the console. 
 
-If it doesn't start creating .venv and install the required libraries then follow the instructions mentioned below:
+- If it doesn't start creating .venv and install the required libraries then follow the instructions mentioned below:
 ---
-Open the Terminal and run the syntax in the root directory of the project to install the libraries:
-Create and Activate a Virtual Environment (Optional but Recommended)
-python -m venv .venv
+- Open the Terminal and run the syntax in the root directory of the project to install the libraries:
+- Create and Activate a Virtual Environment (Optional but Recommended)
+- python -m venv .venv
 ---
 ## Windows
 venv\Scripts\activate
 ## macOS / Linux
 source venv/bin/activate
 ---
-Install libraries from the requirements.txt file saved in the root directory as per below:
-pip install -r requirements.txt
+- Install libraries from the requirements.txt file saved in the root directory as per below:
+- pip install -r requirements.txt
 
 ## Run the Application
 

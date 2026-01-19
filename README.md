@@ -149,11 +149,12 @@ Download the entire project as zip file on your local machine and extract it. Af
 - Create a Virtual Environment (Optional but Recommended) as per below:
 - python -m venv .venv
 - Activate the .venv as per below:
-- ## Windows
+## Windows
 - venv\Scripts\activate
 ## macOS / Linux
 - source venv/bin/activate
-- Install libraries from the requirements.txt file saved in the root directory as per below:
+--- 
+**Install libraries from the requirements.txt file saved in the root directory as per below:**
 - pip install -r requirements.txt
 
 ## Run the Application

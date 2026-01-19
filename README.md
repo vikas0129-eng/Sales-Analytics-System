@@ -174,14 +174,10 @@ This executes the complete pipeline:
 
 If you want to test the modules of the project independently:
 
-**Only cleaning/validation**
-- python -m utils.file_handler
-**Only analytics on Sales_cleaned_data.txt**
-- python -m utils.data_processor --export
-**Only API enrichment**
-- python -m utils.api_handler
-**Only report generation**
-- python -m utils.sales_report_generation
+- **Only cleaning/validation**: python -m utils.file_handler
+- **Only analytics on Sales_cleaned_data.txt**: python -m utils.data_processor --export
+- **Only API enrichment**: python -m utils.api_handler
+- **Only report generation**: python -m utils.sales_report_generation
 
 ---
 ## License

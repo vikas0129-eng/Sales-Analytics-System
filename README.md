@@ -142,9 +142,9 @@ Additionally, the module generates **PNG visualizations** (bar charts and line g
 
 ## Installation & Setup
 
-```bash
-git clone https://github.com/<vikas0129-eng>/sales-analytics-system.git
-cd sales-analytics-system
+Download the entire project as zip file on your local machine and extract it. After extracting, open any IDE like Visual Code and open the root folder of the project. First, when you run the main.py script, it will create the .venv(virtual environment) folder and also ask to install libraries "requests" and "matplotlib" from the "requirements.txt" file. If it doesn't start creating .venv and install the required libraries then follow the instructions mentioned below:
+
+Open the Terminal and run the syntax in the root directory of the project to install the libraries:
 pip install -r requirements.txt
 Create and Activate a Virtual Environment (Optional but Recommended)
 python -m venv venv

@@ -150,9 +150,9 @@ Download the entire project as zip file on your local machine and extract it. Af
 - python -m venv .venv
 - Activate the .venv as per below:
 ## Windows
-- venv\Scripts\activate
+- .venv\Scripts\activate
 ## macOS / Linux
-- source venv/bin/activate
+- source .venv/bin/activate
 --- 
 **Install libraries from the requirements.txt file saved in the root directory as per below:**
 - pip install -r requirements.txt
@@ -175,13 +175,13 @@ This executes the complete pipeline:
 If you want to test the modules of the project independently:
 
 **Only cleaning/validation**
-python -m utils.file_handler
+- python -m utils.file_handler
 **Only analytics on Sales_cleaned_data.txt**
-python -m utils.data_processor --export
+- python -m utils.data_processor --export
 **Only API enrichment**
-python -m utils.api_handler
+- python -m utils.api_handler
 **Only report generation**
-python -m utils.sales_report_generation
+- python -m utils.sales_report_generation
 
 ---
 ## License
